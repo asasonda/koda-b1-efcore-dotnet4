@@ -1,0 +1,4 @@
+@baseUrl = http://localhost:5079
+
+GET {{baseUrl}}/api/v1/category/1
+Accept: application/json
