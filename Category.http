@@ -1,4 +1,5 @@
 @baseUrl = http://localhost:5079
 
-GET {{baseUrl}}/api/v1/category/1
+
+GET {{baseUrl}}/api/v1/category/3
 Accept: application/json

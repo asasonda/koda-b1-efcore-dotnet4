@@ -16,7 +16,7 @@ public sealed class CategoryController : ControllerBase
         _service = service;
     }
 
-    [HttpGet("id")]
+    [HttpGet("{id:int}")]
     public async Task<ActionResult<ProductDetailResponse>> GetById([FromRoute] int id, CancellationToken cancellationToken)
     {
         var category = await _service.GetByIdAsync(id, cancellationToken);
